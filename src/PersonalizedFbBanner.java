@@ -10,31 +10,27 @@
  * which is the main class containing your facebook banner code that you create.
  */
 
-public class PersonalizedFbBanner
+public class PersonalizedFbBanner extends FbBanner implements RandomDrawMethods
 {
 
-    void DrawRandomFilledOval() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-	// Your code should go below this line
-
-    void DrawRandomFilledRectangle() {
+    @Override
+    public void DrawRandomFilledOval() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    void DrawTextAtRandomLocation(String cs_is_fun) {
+    @Override
+    public void DrawRandomFilledRectangle() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    void DrawCenteredPicture(String myPicjpg, int i) {
+    @Override
+    public void DrawTextAtRandomLocation(String txt) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    void writeImageToFile(String lastName_Psych_FBB) {
+    @Override
+    public void DrawCustomizedDecoration() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    void DrawCustomizedDecoration() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 }
