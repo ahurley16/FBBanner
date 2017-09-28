@@ -17,7 +17,7 @@ public class CS125_Lab4_Client
 	{
 		// Your program should always output your name and the lab/problem
 		// number. DO NOT DELETE OR COMMENT OUT. Replace with relevant info.
-		System.out.println("FirstName1 LastName1 & FirstName2 LastName2");
+		System.out.println("Mario Lopez & Drew Hurley");
 		System.out.println("Lab 4");
 		System.out.println("");
 		
