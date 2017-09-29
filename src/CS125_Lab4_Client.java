@@ -45,7 +45,7 @@ public class CS125_Lab4_Client
 			fbb.DrawTextAtRandomLocation("So Fun!");
 		}
 		fbb.DrawCenteredPicture("myPic.jpg", 30);
-		fbb.writeImageToFile("LastName_Psych_FBB");
+		fbb.writeImageToFile("Lopez-Hurley_Psych_FBB");
 
 		System.out.println("Your psychedelic banner is ready!");
 	}
@@ -57,7 +57,7 @@ public class CS125_Lab4_Client
 		PersonalizedFbBanner fbb = new PersonalizedFbBanner();
 		fbb.DrawCustomizedDecoration();
 		fbb.DrawCenteredPicture("myPic.jpg", 30);
-		fbb.writeImageToFile("LastName_Cust_FBB");
+		fbb.writeImageToFile("Lopez-Hurley_Cust_FBB");
 
 		System.out.println("Your custom banner is ready!");
 	}
