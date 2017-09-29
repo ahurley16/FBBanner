@@ -1,4 +1,3 @@
-
 import java.awt.Color;
 import java.util.Random;
 
@@ -50,9 +49,8 @@ public class PersonalizedFbBanner extends FbBanner implements RandomDrawMethods 
         int[][] colorArray = new int[(getHeight() / SIZE) + 1][(getWidth() / SIZE) + 1];
 
         //Populate the array with "colors" 0-5
-        int colorBehind = -1;
-        int colorAbove = -1;
-        int newColor = -1;
+        int colorBehind, colorAbove, newColor = -1;
+        
         for (int r = 0; r < colorArray.length; r++) {
             for (int c = 0; c < colorArray[r].length; c++) {
 
@@ -82,8 +80,7 @@ public class PersonalizedFbBanner extends FbBanner implements RandomDrawMethods 
         }
 
         //Translate colorArray into real colors
-        int xPos = 0;
-        int yPos = 0;
+        int xPos, yPos = 0;
         for (int[] r : colorArray) {
             //Start at 0 each new row
             xPos = 0;
